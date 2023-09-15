@@ -9,6 +9,7 @@ export function EmployeesList(props: EmployeesListProps) {
     return (
       <tr key={index}>
         <td>{employee.name}</td>
+        <td>{employee.position}</td>
         <td>{employee.salary}</td>
       </tr>
     );
@@ -19,6 +20,7 @@ export function EmployeesList(props: EmployeesListProps) {
       <thead>
         <tr>
           <th>Name</th>
+          <th>Position</th>
           <th>Salary</th>
         </tr>
       </thead>
